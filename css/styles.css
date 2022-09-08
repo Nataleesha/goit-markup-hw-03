@@ -1,0 +1,226 @@
+:root {
+  --main-text-color: #757575;
+  --highlight-color: #2196f3;
+  --logo-color: #000000;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --hero-bgd-color: #c4c4c4;
+  --footer-bgd-color: #2f303a;
+  --section-bgd-color: #f5f4fa;
+  --border-color: #eeeeee;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--logo-color);
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--highlight-color);
+}
+
+.nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.nav-link.current {
+  color: var(--highlight-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--highlight-color);
+}
+
+.auth-nav a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.auth-link:hover,
+.auth-link:focus {
+  color: var(--highlight-color);
+}
+
+.hero {
+  background: url("../images/overlay.jpg");
+  background-color: var(--hero-bgd-color);
+  width: 1600px;
+  height: 600px;
+}
+
+.hero-title {
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--secondary-text-color);
+  background-color: var(--highlight-color);
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.667;
+}
+
+.advantages-item {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantages-descr {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team {
+  background: var(--section-bgd-color);
+}
+
+.team-member {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team .list {
+  width: 270px;
+  padding: 0;
+  background: var(--secondary-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.page-footer {
+  background-color: var(--footer-bgd-color);
+}
+
+.page-footer .logo {
+  color: var(--secondary-text-color);
+}
+
+.contacts-link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--highlight-color);
+}
+
+.join-us {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: var(--title-text-color);
+  background-color: var(--section-bgd-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--highlight-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--secondary-text-color);
+}
+
+.project-name {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.project-item {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  background: var(--secondary-text-color);
+  border: 1px solid var(--border-color);
+}
