@@ -4,458 +4,212 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Навігація-->
     <header class="page-header">
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+      <div class="container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo"
+            ><span class="logo-web">Web</span>Studio</a
+          >
 
-        <ul class="page-nav list">
-          <li><a href="./index.html" class="nav-link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-          <li><a href="" class="nav-link">Контакти</a></li>
+          <ul class="page-nav list">
+            <li class="item">
+              <a href="./index.html" class="nav-link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="auth-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="auth-link"> +38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="auth-link"
-            ><img
-              src="./images/envelope.svg"
-              alt="Конверт"
-              width="16"
-              height="12"
-            />
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="auth-link"
-            ><img
-              src="./images/smartphone.svg"
-              alt="Телефон"
-              width="10"
-              height="16"
-            />
-            +38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main class="main">
       <!--Hero-->
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
+        </div>
       </section>
 
       <!--Переваги-->
-      <section class="advantages">
-        <h2 class="title visually-hidden">Наші Переваги</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/Group 1.svg"
-              alt="Іконка 1"
-              width="270"
-              height="120"
-            />
-            <h3 class="advantages-item">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="advantages-descr">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/Group 2.svg"
-              alt="Іконка 2"
-              width="270"
-              height="120"
-            />
-            <h3 class="advantages-item">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="advantages-descr">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/Group 3.svg"
-              alt="Іконка 3"
-              width="270"
-              height="120"
-            />
-            <h3 class="advantages-item">ПЛАНУВАННЯ</h3>
-            <p class="advantages-descr">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/Group 4.svg"
-              alt="Іконка 4"
-              width="270"
-              height="120"
-            />
-            <h3 class="advantages-item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="advantages-descr">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="advantages section">
+        <div class="container">
+          <h2 class="title visually-hidden">Наші Переваги</h2>
+          <ul class="advantages-list list">
+            <li class="item">
+              <h3 class="advantages-name">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="advantages-descr">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advantages-name">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="advantages-descr">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advantages-name">ПЛАНУВАННЯ</h3>
+              <p class="advantages-descr">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="advantages-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="advantages-descr">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Чим ми займаємося-->
-      <section>
-        <h2 class="title">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/computer.jpg"
-              alt="Фото комп'ютера"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/smartphone.jpg"
-              alt="Фото смартфона"
-              width="370"
-            />
-          </li>
-          <li>
-            <img src="./images/tablet.jpg" alt="Фото планшета" width="370" />
-          </li>
-        </ul>
+      <section class="our-work section">
+        <div class="container">
+          <h2 class="title">Чим ми займаємося</h2>
+          <ul class="our-works list">
+            <li class="item">
+              <img
+                src="./images/computer.jpg"
+                alt="Фото комп'ютера"
+                width="370"
+                class="work-image"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/smartphone.jpg"
+                alt="Фото смартфона"
+                width="370"
+                class="work-image"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/tablet.jpg"
+                alt="Фото планшета"
+                width="370"
+                class="work-image"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Наша команда-->
-      <section class="team">
-        <h2 class="title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/Demianenko.jpg"
-              alt="Фото Ігора Дем'яненко"
-              width="270"
-            />
-            <h3 class="team-member">Ігор Дем'яненко</h3>
-            <p lang="en" class="team-member-position">Product Designer</p>
-            <ul class="social-links list">
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/instagram-grey.svg" alt="Інстаграм"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/twitter-grey.svg" alt="Твіттер"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/facebook-grey.svg" alt="Фейсбук"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/linkedin-grey.svg" alt="Лінкедін"
-                /></a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Repina.jpg"
-              alt="Фото Олиги Рєпіної"
-              width="270"
-            />
-            <h3 class="team-member">Ольга Рєпіна</h3>
-            <p lang="en" class="team-member-position">Frontend Developer</p>
-            <ul class="social-links list">
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/instagram-grey.svg" alt="Інстаграм"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/twitter-grey.svg" alt="Твіттер"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/facebook-grey.svg" alt="Фейсбук"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/linkedin-grey.svg" alt="Лінкедін"
-                /></a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Tarasov.jpg"
-              alt="Фото Миколи Тарасова"
-              width="270"
-            />
-            <h3 class="team-member">Микола Тарасов</h3>
-            <p lang="en" class="team-member-position">Marketing</p>
-            <ul class="social-links list">
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/instagram-grey.svg" alt="Інстаграм"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/twitter-grey.svg" alt="Твіттер"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/facebook-grey.svg" alt="Фейсбук"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/linkedin-grey.svg" alt="Лінкедін"
-                /></a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Iermakov.jpg"
-              alt="Фото Михайла Єрмакова"
-              width="270"
-            />
-            <h3 class="team-member">Михайло Єрмаков</h3>
-            <p lang="en" class="team-member-position">UI Designer</p>
-            <ul class="social-links list">
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/instagram-grey.svg" alt="Інстаграм"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/twitter-grey.svg" alt="Твіттер"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/facebook-grey.svg" alt="Фейсбук"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                  ><img src="./images/linkedin-grey.svg" alt="Лінкедін"
-                /></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <section class="team section">
+        <div class="container">
+          <h2 class="title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="item">
+              <img
+                src="./images/Demianenko.jpg"
+                alt="Фото Ігора Дем'яненко"
+                width="270"
+                class="team-img"
+              />
+              <h3 class="team-member">Ігор Дем'яненко</h3>
+              <p lang="en" class="team-member-position">Product Designer</p>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Repina.jpg"
+                alt="Фото Олиги Рєпіної"
+                width="270"
+                class="team-img"
+              />
+              <h3 class="team-member">Ольга Рєпіна</h3>
+              <p lang="en" class="team-member-position">Frontend Developer</p>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Tarasov.jpg"
+                alt="Фото Миколи Тарасова"
+                width="270"
+                class="team-img"
+              />
+              <h3 class="team-member">Микола Тарасов</h3>
+              <p lang="en" class="team-member-position">Marketing</p>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Iermakov.jpg"
+                alt="Фото Михайла Єрмакова"
+                width="270"
+                class="team-img"
+              />
+              <h3 class="team-member">Михайло Єрмаков</h3>
+              <p lang="en" class="team-member-position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!-- Постійні Клієнти-->
-      <section>
-        <h2 class="title">Постійні клієнти</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/Client 1.svg"
-              alt="Клієнт 1"
-              width="170"
-              height="92"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Client 2.svg"
-              alt="Клієнт 2"
-              width="170"
-              height="92"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Client 3.svg"
-              alt="Клієнт 3"
-              width="170"
-              height="92"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Client 4.svg"
-              alt="Клієнт 4"
-              width="170"
-              height="92"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Client 5.svg"
-              alt="Клієнт 5"
-              width="170"
-              height="92"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Client 6.svg"
-              alt="Клієнт 6"
-              width="170"
-              height="92"
-            />
-          </li>
-        </ul>
-      </section>
     </main>
 
     <!--Футер-->
     <footer class="page-footer">
-      <a href="./index.html" class="logo"
-        ><span class="logo-web">Web</span>Studio</a
-      >
+      <div class="container">
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
 
-      <address class="contacts">
-        <ul class="list">
-          <li>
-            <a
-              href="https://goo.gl/maps/JjbHSfaWwbeHCiiM6"
-              target="_blank"
-              rel="noopener noreferrer" class="contacts-link"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-
-      <section>
-        <h3 class="join-us">приєднуйтесь</h3>
-        <ul class="social-links list">
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-              ><img
-                src="./images/instagram-white.svg"
-                alt="Інстаграм"
-                width="44"
-                height="44"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/"
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-              ><img
-                src="./images/twitter-white.svg"
-                alt="Твіттер"
-                width="44"
-                height="44"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/"
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-              ><img
-                src="./images/facebook-white.svg"
-                alt="Фейсбук"
-                width="44"
-                height="44"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-              ><img
-                src="./images/linkedin-white.svg"
-                alt="Лінкедін"
-                width="44"
-                height="44"
-            /></a>
-          </li>
-        </ul>
-      </section>
+        <address class="contacts">
+          <ul class="list">
+            <li class="item">
+              <a
+                href="https://goo.gl/maps/JjbHSfaWwbeHCiiM6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="contacts-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="contacts-link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
