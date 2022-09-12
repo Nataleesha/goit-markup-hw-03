@@ -9,7 +9,7 @@
   --section-bgd-color: #f5f4fa;
   --border-color: #eeeeee;
   --header-bottom-border: #ececec;
-  --footer-contascts-color: rgba(255, 255, 255, 0.6);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -172,7 +172,7 @@ body {
 }
 
 .contacts-link.gray-link {
-  color: var(--footer-contascts-color);
+  color: var(--footer-contacts-color);
 }
 
 .contacts-link:hover,
