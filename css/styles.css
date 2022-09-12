@@ -170,6 +170,10 @@ body {
   font-style: normal;
 }
 
+.contacts-link.gray-link {
+  color: var(--secondary-text-color) 60%;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--highlight-color);
